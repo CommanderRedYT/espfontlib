@@ -1,0 +1,164 @@
+set(headers
+    src/din1451alt10pt8b.h
+    src/fontrenderer.h
+    src/gfxfont.h
+    src/Fonts/Font16.h
+    src/Fonts/Font32rle.h
+    src/Fonts/Font64rle.h
+    src/Fonts/Font72rle.h
+    src/Fonts/Font72x53rle.h
+    src/Fonts/Font7srle.h
+    src/Fonts/Custom/Orbitron_Light_24.h
+    src/Fonts/Custom/Orbitron_Light_32.h
+    src/Fonts/Custom/Roboto_Thin_24.h
+    src/Fonts/Custom/Satisfy_24.h
+    src/Fonts/Custom/Yellowtail_32.h
+    src/Fonts/GFXFF/FreeMono12pt7b.h
+    src/Fonts/GFXFF/FreeMono18pt7b.h
+    src/Fonts/GFXFF/FreeMono24pt7b.h
+    src/Fonts/GFXFF/FreeMono9pt7b.h
+    src/Fonts/GFXFF/FreeMonoBold12pt7b.h
+    src/Fonts/GFXFF/FreeMonoBold18pt7b.h
+    src/Fonts/GFXFF/FreeMonoBold24pt7b.h
+    src/Fonts/GFXFF/FreeMonoBold9pt7b.h
+    src/Fonts/GFXFF/FreeMonoBoldOblique12pt7b.h
+    src/Fonts/GFXFF/FreeMonoBoldOblique18pt7b.h
+    src/Fonts/GFXFF/FreeMonoBoldOblique24pt7b.h
+    src/Fonts/GFXFF/FreeMonoBoldOblique9pt7b.h
+    src/Fonts/GFXFF/FreeMonoOblique12pt7b.h
+    src/Fonts/GFXFF/FreeMonoOblique18pt7b.h
+    src/Fonts/GFXFF/FreeMonoOblique24pt7b.h
+    src/Fonts/GFXFF/FreeMonoOblique9pt7b.h
+    src/Fonts/GFXFF/FreeSans12pt7b.h
+    src/Fonts/GFXFF/FreeSans18pt7b.h
+    src/Fonts/GFXFF/FreeSans24pt7b.h
+    src/Fonts/GFXFF/FreeSans9pt7b.h
+    src/Fonts/GFXFF/FreeSansBold12pt7b.h
+    src/Fonts/GFXFF/FreeSansBold18pt7b.h
+    src/Fonts/GFXFF/FreeSansBold24pt7b.h
+    src/Fonts/GFXFF/FreeSansBold9pt7b.h
+    src/Fonts/GFXFF/FreeSansBoldOblique12pt7b.h
+    src/Fonts/GFXFF/FreeSansBoldOblique18pt7b.h
+    src/Fonts/GFXFF/FreeSansBoldOblique24pt7b.h
+    src/Fonts/GFXFF/FreeSansBoldOblique9pt7b.h
+    src/Fonts/GFXFF/FreeSansOblique12pt7b.h
+    src/Fonts/GFXFF/FreeSansOblique18pt7b.h
+    src/Fonts/GFXFF/FreeSansOblique24pt7b.h
+    src/Fonts/GFXFF/FreeSansOblique9pt7b.h
+    src/Fonts/GFXFF/FreeSerif12pt7b.h
+    src/Fonts/GFXFF/FreeSerif18pt7b.h
+    src/Fonts/GFXFF/FreeSerif24pt7b.h
+    src/Fonts/GFXFF/FreeSerif9pt7b.h
+    src/Fonts/GFXFF/FreeSerifBold12pt7b.h
+    src/Fonts/GFXFF/FreeSerifBold18pt7b.h
+    src/Fonts/GFXFF/FreeSerifBold24pt7b.h
+    src/Fonts/GFXFF/FreeSerifBold9pt7b.h
+    src/Fonts/GFXFF/FreeSerifBoldItalic12pt7b.h
+    src/Fonts/GFXFF/FreeSerifBoldItalic18pt7b.h
+    src/Fonts/GFXFF/FreeSerifBoldItalic24pt7b.h
+    src/Fonts/GFXFF/FreeSerifBoldItalic9pt7b.h
+    src/Fonts/GFXFF/FreeSerifItalic12pt7b.h
+    src/Fonts/GFXFF/FreeSerifItalic18pt7b.h
+    src/Fonts/GFXFF/FreeSerifItalic24pt7b.h
+    src/Fonts/GFXFF/FreeSerifItalic9pt7b.h
+    src/Fonts/GFXFF/TomThumb.h
+)
+
+set(sources
+    src/din1451alt10pt8b.cpp
+    src/fontrenderer.cpp
+    src/gfxfont.cpp
+    src/Fonts/glcdfont.cpp
+    src/Fonts/Font16.cpp
+    src/Fonts/Font32rle.cpp
+    src/Fonts/Font64rle.cpp
+    src/Fonts/Font72rle.cpp
+    src/Fonts/Font72x53rle.cpp
+    src/Fonts/Font7srle.cpp
+    src/Fonts/Custom/Orbitron_Light_24.cpp
+    src/Fonts/Custom/Orbitron_Light_32.cpp
+    src/Fonts/Custom/Roboto_Thin_24.cpp
+    src/Fonts/Custom/Satisfy_24.cpp
+    src/Fonts/Custom/Yellowtail_32.cpp
+    src/Fonts/GFXFF/FreeMono12pt7b.cpp
+    src/Fonts/GFXFF/FreeMono18pt7b.cpp
+    src/Fonts/GFXFF/FreeMono24pt7b.cpp
+    src/Fonts/GFXFF/FreeMono9pt7b.cpp
+    src/Fonts/GFXFF/FreeMonoBold12pt7b.cpp
+    src/Fonts/GFXFF/FreeMonoBold18pt7b.cpp
+    src/Fonts/GFXFF/FreeMonoBold24pt7b.cpp
+    src/Fonts/GFXFF/FreeMonoBold9pt7b.cpp
+    src/Fonts/GFXFF/FreeMonoBoldOblique12pt7b.cpp
+    src/Fonts/GFXFF/FreeMonoBoldOblique18pt7b.cpp
+    src/Fonts/GFXFF/FreeMonoBoldOblique24pt7b.cpp
+    src/Fonts/GFXFF/FreeMonoBoldOblique9pt7b.cpp
+    src/Fonts/GFXFF/FreeMonoOblique12pt7b.cpp
+    src/Fonts/GFXFF/FreeMonoOblique18pt7b.cpp
+    src/Fonts/GFXFF/FreeMonoOblique24pt7b.cpp
+    src/Fonts/GFXFF/FreeMonoOblique9pt7b.cpp
+    src/Fonts/GFXFF/FreeSans12pt7b.cpp
+    src/Fonts/GFXFF/FreeSans18pt7b.cpp
+    src/Fonts/GFXFF/FreeSans24pt7b.cpp
+    src/Fonts/GFXFF/FreeSans9pt7b.cpp
+    src/Fonts/GFXFF/FreeSansBold12pt7b.cpp
+    src/Fonts/GFXFF/FreeSansBold18pt7b.cpp
+    src/Fonts/GFXFF/FreeSansBold24pt7b.cpp
+    src/Fonts/GFXFF/FreeSansBold9pt7b.cpp
+    src/Fonts/GFXFF/FreeSansBoldOblique12pt7b.cpp
+    src/Fonts/GFXFF/FreeSansBoldOblique18pt7b.cpp
+    src/Fonts/GFXFF/FreeSansBoldOblique24pt7b.cpp
+    src/Fonts/GFXFF/FreeSansBoldOblique9pt7b.cpp
+    src/Fonts/GFXFF/FreeSansOblique12pt7b.cpp
+    src/Fonts/GFXFF/FreeSansOblique18pt7b.cpp
+    src/Fonts/GFXFF/FreeSansOblique24pt7b.cpp
+    src/Fonts/GFXFF/FreeSansOblique9pt7b.cpp
+    src/Fonts/GFXFF/FreeSerif12pt7b.cpp
+    src/Fonts/GFXFF/FreeSerif18pt7b.cpp
+    src/Fonts/GFXFF/FreeSerif24pt7b.cpp
+    src/Fonts/GFXFF/FreeSerif9pt7b.cpp
+    src/Fonts/GFXFF/FreeSerifBold12pt7b.cpp
+    src/Fonts/GFXFF/FreeSerifBold18pt7b.cpp
+    src/Fonts/GFXFF/FreeSerifBold24pt7b.cpp
+    src/Fonts/GFXFF/FreeSerifBold9pt7b.cpp
+    src/Fonts/GFXFF/FreeSerifBoldItalic12pt7b.cpp
+    src/Fonts/GFXFF/FreeSerifBoldItalic18pt7b.cpp
+    src/Fonts/GFXFF/FreeSerifBoldItalic24pt7b.cpp
+    src/Fonts/GFXFF/FreeSerifBoldItalic9pt7b.cpp
+    src/Fonts/GFXFF/FreeSerifItalic12pt7b.cpp
+    src/Fonts/GFXFF/FreeSerifItalic18pt7b.cpp
+    src/Fonts/GFXFF/FreeSerifItalic24pt7b.cpp
+    src/Fonts/GFXFF/FreeSerifItalic9pt7b.cpp
+    src/Fonts/GFXFF/TomThumb.cpp
+)
+
+set(dependencies
+    cpputils
+    cxx-ring-buffer
+    espchrono
+    espcpputils
+    expected
+    fmt
+    esptftlib
+)
+
+idf_component_register(
+    INCLUDE_DIRS
+        src
+    SRCS
+        ${headers}
+        ${sources}
+    REQUIRES
+        ${dependencies}
+)
+
+target_compile_options(${COMPONENT_TARGET}
+    PRIVATE
+        -DPROGMEM
+        -fstack-reuse=all
+        -fstack-protector-all
+        -Wno-unused-function
+        -Wno-deprecated-declarations
+        -Wno-missing-field-initializers
+        -Wno-parentheses
+)
+
