@@ -48,6 +48,10 @@
 
 #pragma once
 
+#include "sdkconfig.h"
+
+#ifdef CONFIG_TFT_LOAD_GFXFF
+
 // system includes
 #include <cstdint>
 
@@ -63,3 +67,4 @@ extern const GFXglyph TomThumbGlyphs[];
 extern const GFXfont TomThumb;
 
 } // namespace espgui
+#endif

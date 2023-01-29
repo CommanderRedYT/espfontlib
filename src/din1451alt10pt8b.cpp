@@ -1,5 +1,8 @@
 #include "din1451alt10pt8b.h"
 
+#include "sdkconfig.h"
+
+#ifdef CONFIG_TFT_LOAD_GFXFF
 namespace espgui {
 
 const uint8_t din1451alt10pt8bBitmaps[] = {
@@ -461,3 +464,4 @@ const GFXfont din1451alt10pt8b {
 // Approx. 4245 bytes
 
 } // namespace espgui
+#endif

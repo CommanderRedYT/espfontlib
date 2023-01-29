@@ -1,5 +1,9 @@
 #include "TomThumb.h"
 
+#include "sdkconfig.h"
+
+#ifdef CONFIG_TFT_LOAD_GFXFF
+
 namespace espgui {
 
 #define TOMTHUMB_USE_EXTENDED 0
@@ -430,3 +434,4 @@ const GFXfont TomThumb {
   0x20, 0x7E, 6 };
 
 } // namespace espgui
+#endif
