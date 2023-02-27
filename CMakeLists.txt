@@ -136,7 +136,6 @@ set(dependencies
     cxx-ring-buffer
     espchrono
     espcpputils
-    expected
     fmt
     esptftlib
 )
